@@ -150,3 +150,19 @@ resource "azurerm_linux_virtual_machine" "linux-vm" {
     version   = "latest"
   }
 }
+
+
+variable "ssh-port" {
+  type    = number
+  default = 22
+}
+
+variable "web-port" {
+  type    = number
+  default = 80
+}
+
+variable "rdp-port" {
+  type    = number
+  default = 3389
+}
