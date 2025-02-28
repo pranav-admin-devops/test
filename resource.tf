@@ -554,7 +554,7 @@ locals {
 
 
 resource "azurerm_resource_group" "rg" {
-  name     = "pranav-prod-rg"
+  name     = "rg-pranav-prod"
   location = "centralindia"
 }
 
